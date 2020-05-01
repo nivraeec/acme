@@ -583,8 +583,16 @@ ul {
 
     @media screen and (max-width: 767px) {
       color: #707070;
-      padding: 10px 30px;
+      padding: 10px 30px 10px 0;
     }
+  }
+
+  &__box-place-text {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   &__box-button {
