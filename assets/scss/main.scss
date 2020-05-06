@@ -505,18 +505,19 @@ ul {
     text-align: center;
     padding: 20px 25px;
     position: absolute;
-    top: -20px;
+    top: -19px;
     left: 25px;
 
     &::before {
       content: "";
       position: absolute;
-      left: -20px;
+      left: -19px;
       top: 0;
       border-top: 10px solid transparent;
       border-right: 10px solid #3b4e96;
       border-bottom: 10px solid #3b4e96;
       border-left: 10px solid transparent;
+      z-index: -1;
     }
 
     @media screen and (max-width: 767px) {
@@ -574,7 +575,7 @@ ul {
     &::before {
       content: "";
       position: absolute;
-      left: -70px;
+      left: -69px;
       top: 0;
       border-top: 35px solid transparent;
       border-right: 35px solid #ebebeb;
